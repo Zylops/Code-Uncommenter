@@ -8,8 +8,12 @@ actualpath = filepath + "\\" + filename
 
 thingsToWrite = []
 
+nameSplit = filename.split('.')
+
+extention = nameSplit[1]
+
 theFile = open(actualpath, 'r')
-filewrite = open(filepath + '\\' + 'uncommented-version.txt', 'a')
+filewrite = open(filepath + '\\' + filename + '-uncommented.' + extention, 'a')
 
 for line in theFile:
     if line.startswith('#'):
