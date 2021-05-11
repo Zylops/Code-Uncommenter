@@ -16,8 +16,8 @@ If everything went alright, the program should say this:
 
 ![image](https://user-images.githubusercontent.com/56356202/117803225-0cb8b180-b25f-11eb-8045-4cbd085985b2.png)
 
-An uncommented version of your code will appear in the same directory as your script with the name "uncommented-version.txt":
+An uncommented version of your code will appear in the same directory as your script with the name "filename-uncommented.fileext":
 
-![image](https://user-images.githubusercontent.com/56356202/117803329-2e199d80-b25f-11eb-9ead-15c2e3b07ce0.png)
+![image](https://user-images.githubusercontent.com/56356202/117805346-894c8f80-b261-11eb-9be1-52cb81bd2cc8.png)
 
 That's it! Happy uncommenting =)
