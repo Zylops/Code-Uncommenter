@@ -1,6 +1,8 @@
 # Code-Uncommenter
 A small python script that removes all comments from any type of text file (.py, .js, .everyothercodeformatonearth)!
 
+(Windows Standalone EXE version available here: https://github.com/Zylops/Code-Uncommenter/releases/tag/1.0 , The steps to use are the exact same.)
+
 ![image](https://user-images.githubusercontent.com/56356202/117803364-370a6f00-b25f-11eb-953a-30522c0b9e8b.png)
 
 # How to use?
