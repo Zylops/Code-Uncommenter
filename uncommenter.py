@@ -13,7 +13,7 @@ nameSplit = filename.split('.')
 extention = nameSplit[1]
 
 theFile = open(actualpath, 'r')
-filewrite = open(filepath + '\\' + filename + '-uncommented.' + extention, 'a')
+filewrite = open(filepath + '\\' + nameSplit[0] + '-uncommented.' + extention, 'a')
 
 for line in theFile:
     if line.startswith('#'):
