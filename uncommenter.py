@@ -8,6 +8,8 @@ actualpath = filepath + "\\" + filename
 
 thingsToWrite = []
 
+tags = ['#', '//', '/*', '<!–', '*']
+
 nameSplit = filename.split('.')
 
 extention = nameSplit[1]
@@ -16,10 +18,12 @@ theFile = open(actualpath, 'r')
 filewrite = open(filepath + '\\' + nameSplit[0] + '-uncommented.' + extention, 'a')
 
 for line in theFile:
-    if line.startswith('#'):
-        pass
-    else:
-        thingsToWrite.append(line)
+    for i in tags:
+        if line.startswith(i:
+            pass
+        else:
+             thingsToWrite.append(line)
+
 
 for i in thingsToWrite:
     filewrite.write(i)
