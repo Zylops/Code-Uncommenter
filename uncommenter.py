@@ -19,7 +19,7 @@ filewrite = open(filepath + '\\' + nameSplit[0] + '-uncommented.' + extention, '
 
 for line in theFile:
     for i in tags:
-        if line.startswith(i:
+        if line.startswith(i):
             pass
         else:
              thingsToWrite.append(line)
